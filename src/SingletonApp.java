@@ -1,7 +1,7 @@
 public class SingletonApp {
     public static void main(String[] args) {
 
-        final int SIZE = 100;
+        final int SIZE = 10;
 
         Thread thread[] = new Thread[SIZE];
 
