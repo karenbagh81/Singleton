@@ -32,7 +32,6 @@ class Thr implements Runnable {
 
 class Singleton {
     public static int count = 0;
-
     private static volatile Singleton instance = null;
 
     private Singleton() {
